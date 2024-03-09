@@ -56,7 +56,7 @@ public class TestCases {
         String title = driver.getCurrentUrl();
         String expected = "leetcode";
         if (title.contains(expected)) {
-            System.out.println("Title contains " + expected);
+            System.out.println("Title contains : " + expected);
         }
         System.out.println("end Test case: testCase01");
     }
@@ -71,7 +71,7 @@ public class TestCases {
         String problems = driver.getCurrentUrl();
         String expected0 = "problemset";
         if (problems.contains(expected0)) {
-            System.out.println("Title contains " + expected0);
+            System.out.println("Title contains : " + expected0);
         }
         WebElement firstQues = driver.findElement(By.xpath("//div[@role='cell']/div/div/div/div/a[text()='Two Sum']"));
         String title1 = firstQues.getText();
@@ -110,4 +110,22 @@ public class TestCases {
         System.out.println("end Test case: testCase02");
     }
 
+    public void testCase03() throws InterruptedException {
+        System.out.println("Start Test case: testCase03");
+        driver.get("https://leetcode.com/");
+        WebElement questionLink = driver.findElement(By.xpath("//*[@id='product']/div/div/div[1]/div/a/p"));
+        // p[@class='link']/p[text()='View Questions ']
+        questionLink.click();
+
+        WebElement firstQues = driver.findElement(By.xpath("//div[@role='cell']/div/div/div/div/a[text()='Two Sum']"));
+        firstQues.click();
+
+        String twoSum = driver.getCurrentUrl();
+        String expected0 = "two-sum";
+        if (twoSum.contains(expected0)) {
+            System.out.println("Title contains : " + expected0);
+        }
+
+        System.out.println("end Test case: testCase03");
+    }
 }
