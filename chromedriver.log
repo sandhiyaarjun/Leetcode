@@ -1,0 +1,199 @@
+[1710011606.212][INFO]: Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 22474
+[1710011606.212][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1710011606.486][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1710011606.486][INFO]: Browser search. Trying... C:\Users\Saisandhiya\.cache\selenium\chromedriver\win64\122.0.6261.111\chrome.exe
+[1710011606.486][INFO]: Browser search. Trying... C:\Users\Saisandhiya\.cache\selenium\chromedriver\win64\122.0.6261.111\chrome.exe
+[1710011606.486][INFO]: Browser search. Trying... C:\Users\Saisandhiya\.cache\selenium\chromedriver\win64\122.0.6261.111\chromium.exe
+[1710011606.490][INFO]: Browser search. Trying... C:\Users\Saisandhiya\AppData\Local\Google\Chrome\Application\chrome.exe
+[1710011606.490][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1710011606.490][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1710011606.491][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1710011606.491][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1710011606.492][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1710011606.492][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1710011606.493][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\SAISAN~1\AppData\Local\Temp\scoped_dir16868_415917643" data:,
+[1710011607.208][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1710011607.220][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "122.0.6261.112",
+      "chrome": {
+         "chromedriverVersion": "122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015})",
+         "userDataDir": "C:\\Users\\SAISAN~1\\AppData\\Local\\Temp\\scoped_dir16868_415917643"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55680"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9873e2d88e56d8d8dc390e598fba1deb"
+}
+[1710011607.444][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND MaximizeWindow {
+}
+[1710011607.444][INFO]: Waiting for pending navigations...
+[1710011607.447][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.568][INFO]: Waiting for pending navigations...
+[1710011607.569][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.569][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1710011607.576][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1710011607.576][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE SetTimeouts
+[1710011607.580][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND Navigate {
+   "url": "https://leetcode.com/"
+}
+[1710011607.580][INFO]: Waiting for pending navigations...
+[1710011607.581][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.638][INFO]: Waiting for pending navigations...
+[1710011607.949][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.949][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE Navigate
+[1710011607.954][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND GetUrl {
+}
+[1710011607.954][INFO]: Waiting for pending navigations...
+[1710011607.955][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.960][INFO]: Waiting for pending navigations...
+[1710011607.960][INFO]: Done waiting for pending navigations. Status: ok
+[1710011607.960][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE GetUrl "https://leetcode.com/"
+[1710011607.964][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND Navigate {
+   "url": "https://leetcode.com/"
+}
+[1710011607.964][INFO]: Waiting for pending navigations...
+[1710011607.965][INFO]: Done waiting for pending navigations. Status: ok
+[1710011608.282][INFO]: Waiting for pending navigations...
+[1710011611.573][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.573][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE Navigate
+[1710011611.577][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND GetUrl {
+}
+[1710011611.577][INFO]: Waiting for pending navigations...
+[1710011611.578][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.584][INFO]: Waiting for pending navigations...
+[1710011611.585][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.585][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE GetUrl "https://leetcode.com/"
+[1710011611.593][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='product']/div/div/div[1]/div/a/p"
+}
+[1710011611.593][INFO]: Waiting for pending navigations...
+[1710011611.594][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.614][INFO]: Waiting for pending navigations...
+[1710011611.618][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.618][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7E47192F74DD121D16BD2CB6E7C31648.d.3CDCE34252CDCB251B96952446796FA5.e.18"
+}
+[1710011611.627][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND ClickElement {
+   "id": "f.7E47192F74DD121D16BD2CB6E7C31648.d.3CDCE34252CDCB251B96952446796FA5.e.18"
+}
+[1710011611.627][INFO]: Waiting for pending navigations...
+[1710011611.645][INFO]: Done waiting for pending navigations. Status: ok
+[1710011611.831][INFO]: Waiting for pending navigations...
+[1710011614.334][INFO]: Done waiting for pending navigations. Status: ok
+[1710011614.334][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE ClickElement
+[1710011614.339][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND GetUrl {
+}
+[1710011614.339][INFO]: Waiting for pending navigations...
+[1710011614.452][INFO]: Done waiting for pending navigations. Status: ok
+[1710011614.806][INFO]: Waiting for pending navigations...
+[1710011614.881][INFO]: Done waiting for pending navigations. Status: ok
+[1710011614.881][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE GetUrl "https://leetcode.com/problemset/"
+[1710011614.888][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] COMMAND CloseWindow {
+}
+[1710011615.084][INFO]: [9873e2d88e56d8d8dc390e598fba1deb] RESPONSE CloseWindow [  ]
