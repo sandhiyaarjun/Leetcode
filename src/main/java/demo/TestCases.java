@@ -128,4 +128,29 @@ public class TestCases {
 
         System.out.println("end Test case: testCase03");
     }
+
+    public void testCase04() throws InterruptedException {
+        System.out.println("Start Test case: testCase04");
+        driver.get("https://leetcode.com/");
+        WebElement questionLink = driver.findElement(By.xpath("//*[@id='product']/div/div/div[1]/div/a/p"));
+        // p[@class='link']/p[text()='View Questions ']
+        questionLink.click();
+
+        WebElement firstQues = driver.findElement(By.xpath("//div[@role='cell']/div/div/div/div/a[text()='Two Sum']"));
+        firstQues.click();
+
+        WebElement submission = driver.findElement(By.xpath("//*[@id='submissions_tab']/div[2]/div[2]"));
+        submission.click();
+
+        // WebElement regOrSub =
+        // driver.findElement(By.xpath("//*[@id='d6fe7fec-2118-a629-c079-d03ac82a59c5']/div/div/a"));
+        WebElement regOrSub = driver.findElement(By.xpath("//a[text()='Register or Sign In']"));
+        String text = regOrSub.getText();
+        String expectedText = "Register or Sign In";
+        if (text.equals(expectedText)) {
+            System.out.println("Text contains : " + expectedText);
+        }
+
+        System.out.println("end Test case: testCase04");
+    }
 }
